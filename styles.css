@@ -1,0 +1,159 @@
+*{
+    padding: 0%;
+    margin: auto;
+     
+}
+body{
+    
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+    
+}
+.top-container{
+    margin-top: 50px auto 0 auto;
+    background-color: #E4F9f4;
+    padding-top: 100px;
+    color: #66BFBF;
+    font-weight: normal;
+      
+     
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+p{
+    padding: 1em 0;
+}
+span{
+    text-decoration: underline;
+}
+
+.top-cloud{
+     position: absolute;
+     top: 40px;
+     right: 200px;
+     max-width:100%;height:auto;
+}
+.footer-link{
+    color: #11999E;
+}
+.skill-row{
+    width: 50%;
+    margin: 60px auto 100px auto ;
+    text-align: left;
+}
+.image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+    max-width:100%;height:auto
+}
+.image2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+    max-width:100%;height:auto
+ 
+}
+.profile-image{
+    width: 35%;
+    margin-top: 30px;
+    max-width:100%;height:auto
+} 
+.middle-container{
+    line-height: 2;
+    padding-top: 0px;
+     
+}
+.profile{
+    width: 40%;
+    text-align: center;
+    margin: 100px auto 100px auto ;
+     
+
+}
+.contact-me{
+    width: 50%;
+    margin: 20px auto 70px auto ;
+    text-align: center;
+}
+.btn{
+    background-color: #66BFBF;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+    
+
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 4%;
+    border-width: 5px;
+    color: #EAF6F6;
+    padding: 20px;
+}
+.bottom-container{
+    text-decoration: none;
+    background-color: #66BFBF;
+    line-height: 4;
+    color: #EAF6F6;
+    }
+ .footer-link{
+     color: #11999E;
+     padding: 30px;
+     text-decoration: none;
+
+ }   
+ .btn:hover{
+    color: #11999E;
+    cursor: pointer;
+    background-color: whitesmoke;
+ }
+ .footer-link:hover{
+     color: white;
+ }
+ .copyright{
+     font-size: 0.7rem;
+ }
+ @media only screen and (max-width:600px) {
+    
+    .bottom-cloud{
+        margin-left: 100px;
+        margin-top: 150px;
+      }
+      h1{
+        font-size: 4rem;
+      }
+      .text-inline{
+        font-size: 30px;
+      }
+      .lg-img{
+        width:100%;
+        height: 100%;
+        padding: 10px;
+      }
+    
+
+ }
+ 
+ 
+ 
+
+ 
